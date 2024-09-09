@@ -4,29 +4,35 @@
     <img src="https://img.shields.io/badge/Datalumina-Project%20Template-2856f7" alt="Datalumina Project" />
 </a>
 
-## Cookiecutter Data Science
-This project template is a simplified version of the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org) template, created to suit the needs of Datalumina and made available as a GitHub template.
+##XGBoost in Python for Beginners
+YouTube Tutorial Link
 
-## Adjusting .gitignore
+This project demonstrates how to build and optimize an XGBoost model in Python, following the tutorial from the YouTube video linked above.
 
-Ensure you adjust the `.gitignore` file according to your project needs. For example, since this is a template, the `/data/` folder is commented out and data will not be exlucded from source control:
+#Overview
+XGBoost is a powerful gradient boosting algorithm widely used for supervised learning tasks. This project focuses on using XGBoost for classification, specifically predicting whether a customer will subscribe to a term deposit based on the bank marketing dataset.
 
-```plaintext
-# exclude data from source control by default
-# /data/
-```
+#Key Concepts
+Data Exploration and Preparation:
 
-Typically, you want to exclude this folder if it contains either sensitive data that you do not want to add to version control or large files.
+Loading and cleaning the dataset
+Handling categorical features with TargetEncoder
+Splitting data into training and testing sets
+XGBoost Model:
 
-## Duplicating the .env File
-To set up your environment variables, you need to duplicate the `.env.example` file and rename it to `.env`. You can do this manually or using the following terminal command:
+Building an XGBoost classifier
+Utilizing scikit-learn pipelines for streamlined data processing and model fitting
+Hyperparameter Tuning:
 
-```bash
-cp .env.example .env # Linux, macOS, Git Bash, WSL
-copy .env.example .env # Windows Command Prompt
-```
+Employing scikit-optimize for efficient hyperparameter optimization
+Using Bayesian optimization to find the best hyperparameter combination
+Model Evaluation and Prediction:
 
-This command creates a copy of `.env.example` and names it `.env`, allowing you to configure your environment variables specific to your setup.
+Evaluating model performance using ROC AUC score
+Making predictions on new data
+Feature Importance:
+
+Visualizing feature importance to understand the model's decision-making
 
 
 ## Project Organization
