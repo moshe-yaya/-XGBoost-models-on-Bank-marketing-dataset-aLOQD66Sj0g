@@ -4,18 +4,18 @@
     <img src="https://img.shields.io/badge/Datalumina-Project%20Template-2856f7" alt="Datalumina Project" />
 </a>
 
-##XGBoost in Python for Beginners
-YouTube Tutorial Link
+## XGBoost in Python for Beginners
+YouTube Tutorial - https://www.youtube.com/watch?v=aLOQD66Sj0g&t=3s
 
 This project demonstrates how to build and optimize an XGBoost model in Python, following the tutorial from the YouTube video linked above.
 
-#Overview
+# Overview
 XGBoost is a powerful gradient boosting algorithm widely used for supervised learning tasks. This project focuses on using XGBoost for classification, specifically predicting whether a customer will subscribe to a term deposit based on the bank marketing dataset.
 
-#Key Concepts
+# Key Concepts
 Data Exploration and Preparation:
 
-Loading and cleaning the dataset
+# Loading and cleaning the dataset
 Handling categorical features with TargetEncoder
 Splitting data into training and testing sets
 XGBoost Model:
